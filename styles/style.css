@@ -1,0 +1,223 @@
+@charset "UTF-8";
+body, html {
+  font-family: "Roboto", sans-serif;
+  background-color: #F6F7D7;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #BF9270;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #d8a98f;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #FFEDDB;
+  opacity: 0.9;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #BF9270;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #d8a98f;
+}
+
+#servicos {
+  margin: 80px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#servicos h4 {
+  font-size: 1.5rem;
+  color: #d8a98f;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  margin: 1rem 0;
+}
+#servicos h3 {
+  text-align: center;
+  align-items: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  font-weight: 300;
+  color: #7D5A50;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #BF9270;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #d8a98f;
+  line-height: 1.25rem;
+  margin-bottom: 2rem;
+}
+#servicos .cards .card .img-container {
+  margin-bottom: 8px;
+  border: 6px solid #7D5A50;
+  border-radius: 10px;
+}
+#servicos .cards .card .img-container #renovaçao {
+  height: auto;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #FFEDDB;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #BF9270;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 2rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background: white;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .inputfocus-within {
+  box-shadow: 1px 1px 10px 1px #d8a98f;
+  outline: none;
+  transition: 0.5s;
+}
+#cupom button {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  width: 130px;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #d8a98f;
+  color: #7D5A50;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+}
+#cupom button:hover {
+  background-color: #7D5A50;
+  color: #d8a98f;
+  transition: 0.5s;
+  border: 2px #d8a98f;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  borde-top: 2px solid #BF9270;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #BF9270, #d8a98f, #FFEDDB, #BF9270);
+}
+footer i {
+  color: red;
+}
+
+#ofertas {
+  text-align: center;
+  align-items: center;
+  margin: 80px;
+  flex-wrap: wrap;
+}
+#ofertas .ofertas-img {
+  margin-bottom: 20px;
+  width: 550px;
+  border-radius: 20px;
+}
+#ofertas h3 {
+  font-size: 1.5rem;
+  color: #d8a98f;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem 0;
+}
+#ofertas h4 {
+  text-align: center;
+  align-items: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: #7D5A50;
+}
+#ofertas p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #d8a98f;
+  line-height: 1.25rem;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=style.css.map */
+
+::-webkit-scrollbar {
+	width: 3px;
+  background-color: var(--primary-dark);
+}
+
+::-webkit-scrollbar-track {
+	background: unset;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #BF9270;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #fff;
+}

@@ -1,0 +1,39 @@
+@import '../abstract/variaveis';
+
+
+#ofertas {
+    text-align: center;
+    align-items: center;
+    margin: 80px;
+    flex-wrap: wrap;
+    
+    .ofertas-img {
+        margin-bottom: 20px;
+        width: 550px;
+        border-radius: 20px;
+    }
+        h3 {
+            font-size: $tamanho-do-texto / 2.0;
+            color: $cor-secundaria;
+            text-transform: uppercase;
+            font-weight: 300;
+            text-align: center;
+            margin: 1rem 0;
+        } 
+        h4 {
+            text-align: center;
+            align-items: center;
+            font-size: $tamanho-do-texto / 1.2;
+            margin-bottom: 20px;
+            font-weight: 300;  
+            color: $cor-extra-primaria;
+        }
+        p {
+            font-size: $tamanho-do-texto /3;
+            font-weight: 400;
+            color: $cor-secundaria;
+            line-height: 1.25rem;
+            margin-bottom: 2rem;
+        }
+    
+}

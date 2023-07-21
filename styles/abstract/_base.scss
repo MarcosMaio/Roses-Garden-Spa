@@ -1,0 +1,6 @@
+@import './variaveis';
+
+body, html {
+    font-family: $fonte ;
+    background-color: $cor-body;
+}
