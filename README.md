@@ -1,7 +1,7 @@
-# MaiosSpa <br>
+# Roses Garden <br>
 link do servidor que o site está hospedado via vercel: https://maios-spa.vercel.app/
 
-## Bem-vindo ao Maios Spa - <br>
+## Bem-vindo ao Roses Garden - <br>
 um site encantador e elegante para um SPA imaginário de massagem. Este SPA foi projetado como uma Single Page Application (SPA), utilizando a biblioteca React.js para criar uma experiência suave e dinâmica de navegação.
 
 ## Sobre a Pagina: <br>
@@ -18,4 +18,4 @@ um site encantador e elegante para um SPA imaginário de massagem. Este SPA foi 
 
 #### Por fim, a seção "Contato" apresenta um formulário de contato onde os visitantes podem preencher seus detalhes de contato e enviar uma mensagem para o spa para solicitar uma reserva ou fazer uma pergunta geral. Além disso, o site apresenta informações sobre o endereço do spa, horário de funcionamento e links para suas contas de mídia social.
 
-### No geral, o Maios Spa é um site impressionante que apresenta um design atraente e funcionalidade elegante. É fácil de navegar e os visitantes podem encontrar todas as informações necessárias para reservar uma massagem ou entrar em contato com o spa. Com sua estética elegante e minimalista, o Maios Spa é um exemplo excelente de como um SPA pode ser apresentado de forma cativante e fácil de navegar.
+### No geral, o Roses Garden spa é um site impressionante que apresenta um design atraente e funcionalidade elegante. É fácil de navegar e os visitantes podem encontrar todas as informações necessárias para reservar uma massagem ou entrar em contato com o spa. Com sua estética elegante e minimalista, o Maios Spa é um exemplo excelente de como um SPA pode ser apresentado de forma cativante e fácil de navegar.
